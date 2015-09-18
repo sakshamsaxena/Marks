@@ -1,11 +1,11 @@
 //Read this. Thank you.
-//function takeme() {window.location='http://dtu.sakshamsaxena.in/index2.htm'};
+function takeme() {window.location='./index2.htm'};
 var i;
 var pre_1 = new TimelineMax();
 var pre_2 = new TimelineMax();
 var main_q = new TimelineMax({delay:3});
-//if( localStorage.getItem("hits") ){takeme()}
-//else{localStorage.setItem("hits",1)}
+if( localStorage.getItem("hits") ){takeme()}
+else{localStorage.setItem("hits",1)}
 
 $(document).ready(function(e) {
     $("body").hide();

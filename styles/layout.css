@@ -1,107 +1,152 @@
 @import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700italic);
 @import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,700,100italic);
-body, div, section, header, footer, aside{display:block;}
-body{margin:0; padding:0; background-color:white; font-family:'Droid Serif', serif; overflow:hidden;}
-a{text-decoration:none;}
-a:hover{color:inherit}
-a:link, a:visited, a:active{color:inherit}
-header, footer
-{
-	height:10%;
-	clear:both;
-	background-color:hsla(0, 0%, 15%, 1);
-	position:absolute;
-	width:100%;
-	color:hsla(360, 0%, 100%, 1) !important;
+body,
+div,
+section,
+header,
+footer,
+aside {
+	display: block;
 }
-header
-{
-	top:0px;
-	border-bottom:1px solid white;
-	z-index:10;
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	font-family: 'Droid Serif', serif;
+	font-weight: 400;
+	overflow: hidden;
 }
-#sem1
-{
-	position:absolute;
-	width:50%;
-	left:0px;
-	height:100%;
-	background-color:hsla(0, 40%, 70%, 1);
-	border-right:1px solid white;
-	float:left;
+
+a {
+	text-decoration: none;
 }
-#sem2
-{
-	position:absolute;
-	right:0px;
-	width:50%;
-	height:100%;
-	background-color:hsla(0, 40%, 70%, 1);
-	border-left:1px solid white;
-	float:right;
+
+a:hover {
+	color: inherit
 }
-footer
-{
-	bottom:0px;
-	border-top:1px solid white;
+
+a:link,
+a:visited,
+a:active {
+	color: inherit
 }
-h1,h2{text-align:center;line-height:0.75em}
+
+header,
+footer {
+	height: 10%;
+	clear: both;
+	background-color: hsla(0, 0%, 15%, 1);
+	position: absolute;
+	width: 100%;
+	color: hsla(360, 0%, 100%, 1) !important;
+}
+
+header {
+	top: 0px;
+	border-bottom: 1px solid white;
+	z-index: 10;
+}
+
+#sem1 {
+	position: absolute;
+	width: 50%;
+	left: 0px;
+	height: 100%;
+	background-color: hsla(0, 40%, 70%, 1);
+	border-right: 1px solid white;
+	float: left;
+}
+
+#sem2 {
+	position: absolute;
+	right: 0px;
+	width: 50%;
+	height: 100%;
+	background-color: hsla(0, 40%, 70%, 1);
+	border-left: 1px solid white;
+	float: right;
+}
+
+footer {
+	bottom: 0px;
+	border-top: 1px solid white;
+}
+
+h1,
+h2 {
+	text-align: center;
+	line-height: 0.75em
+}
+
+
 /************************************************************/
-.welcome, .toDTU, .smiley
-{
-	font-size:4em;
+
+.welcome,
+.toDTU,
+.smiley {
+	font-size: 4em;
 }
-.welcome, .toDTU
-{
-	float:right;
+
+.welcome,
+.toDTU {
+	float: right;
 }
-.welcome
-{
-	margin-top:40%;
+
+.welcome {
+	margin-top: 40%;
 }
-.toDTU
-{
-	z-index:20;
-	clear:both;
+
+.toDTU {
+	z-index: 20;
+	clear: both;
 }
-.smiley
-{
-	font-family:"Courier New", Courier, monospace;
-	margin-top:45%;
-	float:left;
+
+.smiley {
+	font-family: "Courier New", Courier, monospace;
+	margin-top: 45%;
+	float: left;
 }
-ul.sub_list
-{
-	position:absolute;
-	top:20%;
-	width:80%;
-	z-index:100;
-	list-style:none;
+
+ul.sub_list {
+	position: absolute;
+	top: 20%;
+	width: 80%;
+	z-index: 100;
+	list-style: none;
 }
-.sem_head
-{
-	font-family:'Alegreya Sans SC';
-	font-weight:700;
-	position:absolute;
-	top:10%;
-	left:5%;
-	font-size:2.25em;
+
+.sem_head {
+	font-family: 'Alegreya Sans SC';
+	font-weight: 700;
+	position: absolute;
+	top: 10%;
+	left: 5%;
+	font-size: 2.25em;
 }
-.subject
-{
-	font-family:'Alegreya Sans SC';
-	font-weight:400;
-	font-size:1.5em;
-	text-decoration:underline !important;
+
+.subject {
+	font-family: 'Alegreya Sans SC';
+	font-weight: 400;
+	font-size: 1.5em;
+	text-decoration: underline !important;
 }
-.options
-{
-	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	font-size:1em;
+
+.options {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 1em;
 }
-li
-{
-	margin:1em auto;
+
+li {
+	margin: 1em auto;
 }
-.msg
-{position:absolute; max-width:250px; z-index:100 !important; border:2px solid black; background-color:white;padding:0.5em; font-size:0.9em;}
+
+.msg {
+	position: absolute;
+	max-width: 250px;
+	z-index: 100 !important;
+	border: 2px solid black;
+	background-color: white;
+	padding: 0.5em;
+	font-size: 0.9em;
+}
