@@ -1,0 +1,36 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700italic);
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,700,100italic);
+
+body, div, section, header, footer, aside{display:block;}
+body
+{
+	margin:0;
+	padding:0;
+	background-color:hsla(0, 40%, 70%, 1);
+	font-family:'Droid Serif', serif;
+}
+h1,h4{text-align:center;}
+
+section
+{
+	background-color:black;
+	margin:1em auto;
+	padding:2.25em;
+	color:hsla(360, 0%, 80%,1);
+	font-family:'Alegreya Sans SC';
+	font-weight:400;
+	font-size:1.25em;
+	width:60%;
+	border-radius:20px;
+}
+.q
+{
+	color:hsla(360, 0%, 100%,1);
+	font-size:1.5em;
+}
+footer
+{
+	text-align:center;
+	font-style:italic;
+	font-size:0.75em;
+}
